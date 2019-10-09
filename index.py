@@ -11,5 +11,9 @@ def home() :
 def about():
     return render_template('about.html')
 
+@app.route('/career')
+def career():
+    return render_template('career.html')
+
 if __name__  == '__main__':  # check if the attribute name is same to the main page 
     app.run(debug=True)  # initialize the server with the method run (), and debug =true allows reload the page when it changes
