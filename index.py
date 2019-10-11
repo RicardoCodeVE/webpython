@@ -1,6 +1,6 @@
 from flask import Flask , render_template # import the module flask
 
-app = Flask(__name__)   # create an object named app to access to some methods like routes etc
+app = Flask(__name__)   # create an instance named app to access to some methods like routes etc
 
 @app.route('/')      #this way is to create routes on flask, followed a def to creeate a functioreturn the page
 def home() :
